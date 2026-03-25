@@ -1,5 +1,8 @@
 // ─── Site ────────────────────────────────────────────────────────────────────
 
+
+const asset = (path: string): string => `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
+
 export interface SiteConfig {
   title: string;
   description: string;
@@ -56,7 +59,7 @@ export const navigationConfig: NavigationConfig = {
   cartEmptyText: "Your inquiry cart is empty",
   cartCheckoutText: "Submit Inquiry",
   continueShoppingText: "Continue Browsing",
-  menuBackgroundImage: "/images/menu-bg.jpg",
+  menuBackgroundImage: asset("/images/menu-bg.jpg"),
 };
 
 // ─── Hero ────────────────────────────────────────────────────────────────────
@@ -78,7 +81,7 @@ export const heroConfig: HeroConfig = {
   ctaPrimaryTarget: "#products",
   ctaSecondaryText: "Learn About Us",
   ctaSecondaryTarget: "#about",
-  backgroundImage: "/images/hero-bg.jpg",
+  backgroundImage: asset("/images/hero-bg.jpg"),
 };
 
 // ─── SubHero ─────────────────────────────────────────────────────────────────
@@ -109,8 +112,8 @@ export const subHeroConfig: SubHeroConfig = {
   ],
   linkText: "Discover Our Facilities",
   linkTarget: "#about",
-  image1: "/images/facility-1.jpg",
-  image2: "/images/packaging-line.jpg",
+  image1: asset("/images/facility-1.jpg"),
+  image2: asset("/images/packaging-line.jpg"),
   stats: [
     { value: 3, suffix: "", label: "Manufacturing Facilities" },
     { value: 11, suffix: "", label: "Years of Excellence" },
@@ -139,7 +142,7 @@ export const videoSectionConfig: VideoSectionConfig = {
   ],
   ctaText: "Explore Our Research",
   ctaTarget: "#products",
-  backgroundImage: "/images/research-lab.jpg",
+  backgroundImage: asset("/images/research-lab.jpg"),
 };
 
 // ─── Products ────────────────────────────────────────────────────────────────
@@ -172,14 +175,14 @@ export const productsConfig: ProductsConfig = {
   addedToCartText: "Added to Inquiry",
   categories: ["All", "GI & Antacids", "Antibiotics", "Cardiology", "Neurology", "Hormonal", "Dermatology", "Nutraceuticals"],
   products: [
-    { id: 1, name: "GI Medications Range", price: 0, category: "GI & Antacids", image: "/images/product-gi.jpg" },
-    { id: 2, name: "Antibiotics Portfolio", price: 0, category: "Antibiotics", image: "/images/product-antibiotics.jpg" },
-    { id: 3, name: "Cardiovascular Care", price: 0, category: "Cardiology", image: "/images/product-cardiology.jpg" },
-    { id: 4, name: "Neurological Solutions", price: 0, category: "Neurology", image: "/images/product-neuro.jpg" },
-    { id: 5, name: "Hormonal Therapies", price: 0, category: "Hormonal", image: "/images/product-hormonal.jpg" },
-    { id: 6, name: "Dermatology Range", price: 0, category: "Dermatology", image: "/images/product-derma.jpg" },
-    { id: 7, name: "Nutraceuticals", price: 0, category: "Nutraceuticals", image: "/images/product-nutra.jpg" },
-    { id: 8, name: "Anti-Inflammatory", price: 0, category: "GI & Antacids", image: "/images/products-bg.jpg" },
+    { id: 1, name: "GI Medications Range", price: 0, category: "GI & Antacids", image: asset("/images/product-gi.jpg") },
+    { id: 2, name: "Antibiotics Portfolio", price: 0, category: "Antibiotics", image: asset("/images/product-antibiotics.jpg") },
+    { id: 3, name: "Cardiovascular Care", price: 0, category: "Cardiology", image: asset("/images/product-cardiology.jpg") },
+    { id: 4, name: "Neurological Solutions", price: 0, category: "Neurology", image: asset("/images/product-neuro.jpg") },
+    { id: 5, name: "Hormonal Therapies", price: 0, category: "Hormonal", image: asset("/images/product-hormonal.jpg") },
+    { id: 6, name: "Dermatology Range", price: 0, category: "Dermatology", image: asset("/images/product-derma.jpg") },
+    { id: 7, name: "Nutraceuticals", price: 0, category: "Nutraceuticals", image: asset("/images/product-nutra.jpg") },
+    { id: 8, name: "Anti-Inflammatory", price: 0, category: "GI & Antacids", image: asset("/images/products-bg.jpg") },
   ],
 };
 
@@ -308,21 +311,21 @@ export const blogConfig: BlogConfig = {
       id: 1,
       title: "Three New Patents Filed for Process Improvement",
       date: "March 2025",
-      image: "/images/quality-lab.jpg",
+      image: asset("/images/quality-lab.jpg"),
       excerpt: "Pharmaceutica's R&D team achieves milestone with three patent applications for innovative manufacturing process improvements."
     },
     {
       id: 2,
       title: "Expanded Manufacturing Capacity in India",
       date: "August 2019",
-      image: "/images/facility-1.jpg",
+      image: asset("/images/facility-1.jpg"),
       excerpt: "Our manufacturing facilities undergo major expansion, adding new production lines for hormonal and neurological therapies."
     },
     {
       id: 3,
       title: "Pharmaceutica Founded with a Vision for Global Healthcare",
       date: "January 2015",
-      image: "/images/team-meeting.jpg",
+      image: asset("/images/team-meeting.jpg"),
       excerpt: "Established with a mission to bridge pharmaceutical precision with nutritional wisdom for emerging markets worldwide."
     },
   ],
@@ -381,7 +384,7 @@ export const aboutConfig: AboutConfig = {
       ],
       quote: "",
       attribution: "",
-      image: "/images/about-1.jpg",
+      image: asset("/images/about-1.jpg"),
       backgroundColor: "#25142d",
       textColor: "#ffffff",
     },
@@ -391,7 +394,7 @@ export const aboutConfig: AboutConfig = {
       paragraphs: [],
       quote: "We believe in care that continues—from the scientist in our labs to the patient in a remote village, every step matters, every life counts.",
       attribution: "— The Pharmaceutica Team",
-      image: "/images/shipping.jpg",
+      image: asset("/images/shipping.jpg"),
       backgroundColor: "#7b4397",
       textColor: "#ffffff",
     },
@@ -447,7 +450,7 @@ export const contactConfig: ContactConfig = {
   submittingText: "Sending...",
   submittedText: "Message Sent",
   successMessage: "Thank you for reaching out. Our team will get back to you within 24-48 hours.",
-  backgroundImage: "/images/contact-bg.jpg",
+  backgroundImage: asset("/images/contact-bg.jpg"),
 };
 
 // ─── Footer ──────────────────────────────────────────────────────────────────
