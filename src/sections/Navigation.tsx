@@ -9,10 +9,12 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; strokeWidth?:
   Linkedin,
 };
 
+const logoUrl = `${import.meta.env.BASE_URL}images/logo-full.png`;
+
 const Logo = ({ isScrolled }: { isScrolled: boolean }) => (
   <div className="flex items-center">
     <img
-      src="/images/logo-full.png"
+      src={logoUrl}
       alt={navigationConfig.brandName}
       className="h-10 w-auto object-contain"
       style={{ filter: isScrolled ? 'none' : 'brightness(0) invert(1)' }}
