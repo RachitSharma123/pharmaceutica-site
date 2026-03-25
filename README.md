@@ -23,3 +23,12 @@ pharmaceutica.com
 ```
 
 Then update `VITE_BASE_PATH` in `.github/workflows/deploy.yml` to `./`
+
+
+## Troubleshooting GitHub Pages Deploy
+
+If Actions fails at `actions/deploy-pages` with `HttpError: Not Found (404)`, GitHub Pages is not enabled yet for the repo.
+
+1. Open **Settings → Pages**
+2. Under **Source**, choose **GitHub Actions**
+3. Re-run the failed workflow (or push a new commit to `main`)
