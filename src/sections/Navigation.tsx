@@ -16,7 +16,7 @@ const Logo = ({ isScrolled }: { isScrolled: boolean }) => (
     <img
       src={logoUrl}
       alt={navigationConfig.brandName}
-      className="h-12 md:h-14 w-auto object-contain"
+      className="h-16 w-auto object-contain"
       style={{ filter: isScrolled ? 'none' : 'brightness(0) invert(1)' }}
     />
   </div>
