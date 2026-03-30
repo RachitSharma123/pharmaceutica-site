@@ -16,7 +16,7 @@ const Logo = ({ isScrolled }: { isScrolled: boolean }) => (
     <img
       src={logoUrl}
       alt={navigationConfig.brandName}
-      className="h-10 w-auto object-contain"
+      className="h-16 w-auto object-contain"
       style={{ filter: isScrolled ? 'none' : 'brightness(0) invert(1)' }}
     />
   </div>
@@ -51,7 +51,7 @@ const Navigation = () => {
           isScrolled ? 'bg-white shadow-sm' : 'bg-transparent'
         }`}
       >
-        <div className="flex items-center justify-between h-[70px] px-6 md:px-12 lg:px-[170px]">
+        <div className="flex items-center justify-between h-[84px] px-6 md:px-12 lg:px-[170px]">
           <a
             href="#hero"
             onClick={(e) => {
