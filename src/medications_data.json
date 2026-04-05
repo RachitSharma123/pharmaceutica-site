@@ -1,0 +1,2184 @@
+{
+  "Pharmaceutical Formulations": {
+    "Anti-Infectives": [
+      {
+        "name": "Aceclofenac 100mg",
+        "form": "Tablet",
+        "composition": "Aceclofenac Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefixime 400mg",
+        "form": "Capsule",
+        "composition": "Cefixime Capsules USP 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefixime 100mg/5ml Suspension",
+        "form": "Suspension",
+        "composition": "Cefixime Oral Suspension USP 100mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefixime 200mg",
+        "form": "Tablet",
+        "composition": "Cefixime Dispersible Tablets USP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefpodoxime 50mg/5ml Suspension",
+        "form": "Suspension",
+        "composition": "Cefpodoxime Oral Suspension USP 50mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefpodoxime 200mg",
+        "form": "Tablet",
+        "composition": "Cefpodoxime Proxetil Dispersible Tablets USP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefpodoxime 100mg",
+        "form": "Tablet",
+        "composition": "Cefpodoxime Proxetil Dispersible Tablets USP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefuroxime 250/500mg",
+        "form": "Tablet",
+        "composition": "Cefuroxime Axetil Tablets USP 250mg/500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefuroxime Suspension",
+        "form": "Suspension",
+        "composition": "Cefuroxime Axetil Oral Suspension USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cephalexin 500mg",
+        "form": "Capsule",
+        "composition": "Cephalexin Capsules BP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Azithromycin 250/500mg",
+        "form": "Tablet",
+        "composition": "Azithromycin Tablets USP 250mg/500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Azithromycin 100mg/5ml Suspension",
+        "form": "Suspension",
+        "composition": "Azithromycin Oral Suspension USP 100mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Azithromycin 200mg/5ml Suspension",
+        "form": "Suspension",
+        "composition": "Azithromycin Oral Suspension USP 200mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Clarithromycin 250mg",
+        "form": "Tablet",
+        "composition": "Clarithromycin Tablets USP 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Clarithromycin 500mg",
+        "form": "Tablet",
+        "composition": "Clarithromycin Tablets USP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Clarithromycin Suspension",
+        "form": "Suspension",
+        "composition": "Clarithromycin Oral Suspension USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ciprofloxacin 500mg",
+        "form": "Tablet",
+        "composition": "Ciprofloxacin HCl Tablets USP 500mg",
+        "packing": "10\u00d710 Alu-Alu/Blister"
+      },
+      {
+        "name": "Ciprofloxacin 250mg/5ml Syrup",
+        "form": "Syrup",
+        "composition": "Ciprofloxacin Syrup BP 250mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ciprofloxacin 251mg/5ml Suspension",
+        "form": "Suspension",
+        "composition": "Ciprofloxacin Oral Suspension BP 251mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levofloxacin 250mg",
+        "form": "Tablet",
+        "composition": "Levofloxacin Tablets USP 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levofloxacin 500mg",
+        "form": "Tablet",
+        "composition": "Levofloxacin Tablets USP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levofloxacin 750mg",
+        "form": "Tablet",
+        "composition": "Levofloxacin Tablets USP 750mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Moxifloxacin 400mg",
+        "form": "Capsule",
+        "composition": "Moxifloxacin HCl Capsules BP 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ofloxacin 200mg",
+        "form": "Tablet",
+        "composition": "Ofloxacin Tablets USP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ofloxacin 200mg + Ornidazole 500mg",
+        "form": "Tablet",
+        "composition": "Ofloxacin BP 200mg & Ornidazole 500mg Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cefixime 100mg + Ofloxacin 100mg",
+        "form": "Tablet",
+        "composition": "Cefixime BP 100mg & Ofloxacin BP 100mg Dispersible Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ciprofloxacin 250mg + Tinidazole 300mg",
+        "form": "Tablet",
+        "composition": "Ciprofloxacin HCl USP 250mg & Tinidazole USP 300mg Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Norfloxacin + Metronidazole Suspension",
+        "form": "Suspension",
+        "composition": "Norfloxacin 100mg BP & Metronidazole BP 100mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Faropenem 150mg",
+        "form": "Tablet",
+        "composition": "Faropenem Sodium Tablets 150mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Faropenem 200mg",
+        "form": "Tablet",
+        "composition": "Faropenem Sodium Tablets 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Doxycycline 100/200mg",
+        "form": "Tablet",
+        "composition": "Doxycycline Hyclate Tablets USP 100mg/200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Trimethoprim + Sulfamethoxazole Susp.",
+        "form": "Suspension",
+        "composition": "Trimethoprim USP 40mg & Sulfamethoxazole USP 200mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sulphadiazine + Trimethoprim",
+        "form": "Tablet",
+        "composition": "Sulphadiazine USP 400mg & Trimethoprim USP 80mg Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Clindamycin 150/300mg",
+        "form": "Capsule",
+        "composition": "Clindamycin Capsules USP 150mg/300mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Linezolid 600mg",
+        "form": "Tablet",
+        "composition": "Linezolid Tablets USP 600mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Rifaximin 200mg",
+        "form": "Tablet",
+        "composition": "Rifaximin Tablets 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Rifaximin 400mg",
+        "form": "Tablet",
+        "composition": "Rifaximin Tablets 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Rifaximin 550mg",
+        "form": "Tablet",
+        "composition": "Rifaximin Tablets 550mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Minocycline ER 45mg",
+        "form": "Tablet",
+        "composition": "Minocycline HCl ER Tablets USP 45mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Minocycline ER 65mg",
+        "form": "Tablet",
+        "composition": "Minocycline HCl ER Tablets USP 65mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Minocycline 100mg",
+        "form": "Tablet",
+        "composition": "Minocycline HCl Tablets USP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Fluconazole 150mg",
+        "form": "Tablet",
+        "composition": "Fluconazole Tablets USP 150mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Fluconazole 200mg",
+        "form": "Tablet",
+        "composition": "Fluconazole Tablets USP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ketoconazole 200mg",
+        "form": "Tablet",
+        "composition": "Ketoconazole Tablets USP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ketoconazole 30mg",
+        "form": "Tablet",
+        "composition": "Ketoconazole Tablets USP 30mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Terbinafine 250mg",
+        "form": "Tablet",
+        "composition": "Terbinafine HCl Tablets USP 250mg",
+        "packing": "10\u00d77 Blister"
+      },
+      {
+        "name": "Terbinafine 500mg",
+        "form": "Tablet",
+        "composition": "Terbinafine HCl Tablets USP 500mg",
+        "packing": "10\u00d77 Blister"
+      },
+      {
+        "name": "Itraconazole 100mg",
+        "form": "Capsule",
+        "composition": "Itraconazole Capsules BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Itraconazole 200mg",
+        "form": "Capsule",
+        "composition": "Itraconazole Capsules BP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Griseofulvin 500mg",
+        "form": "Tablet",
+        "composition": "Griseofulvin Tablets BP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ketoconazole 2% Shampoo",
+        "form": "Liquid",
+        "composition": "Ketoconazole BP Shampoo 2% w/v",
+        "packing": "60ml"
+      },
+      {
+        "name": "Ketoconazole 2% Cream",
+        "form": "Cream",
+        "composition": "Ketoconazole Cream BP 2% w/v",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Clotrimazole 1% Cream",
+        "form": "Cream",
+        "composition": "Clotrimazole Cream BP 1% w/w",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Itraconazole 2% Cream",
+        "form": "Cream",
+        "composition": "Itraconazole Cream BP 2% w/w",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Mometasone + Terbinafine Cream",
+        "form": "Cream",
+        "composition": "Mometasone Furoate BP 0.1% & Terbinafine HCl BP 1%",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Clotrimazole + Beclometasone + Neomycin Cream",
+        "form": "Cream",
+        "composition": "Clotrimazole BP 1%, Beclometasone DP BP 0.05% & Neomycin Sulfate BP 0.5%",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Ciclopirox Olamine Cream",
+        "form": "Cream",
+        "composition": "Ciclopirox Olamine Cream USP",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Aciclovir 200/400/800mg",
+        "form": "Tablet",
+        "composition": "Aciclovir Tablets BP 200mg/400mg/800mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Oseltamivir 30mg",
+        "form": "Capsule",
+        "composition": "Oseltamivir Phosphate Capsules USP 30mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ribavirin 200mg",
+        "form": "Capsule",
+        "composition": "Ribavirin Capsules USP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sofosbuvir 400mg + Velpatasvir 100mg",
+        "form": "Tablet",
+        "composition": "Sofosbuvir 400mg & Velpatasvir 100mg Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Atazanavir 300mg + Ritonavir 100mg",
+        "form": "Tablet",
+        "composition": "Atazanavir BP 300mg & Ritonavir BP 100mg Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dolutegravir 50mg",
+        "form": "Tablet",
+        "composition": "Dolutegravir Tablets 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dolutegravir + Lamivudine + Tenofovir",
+        "form": "Tablet",
+        "composition": "Dolutegravir 50mg + Lamivudine 300mg + Tenofovir DF 245mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Efavirenz 600mg",
+        "form": "Tablet",
+        "composition": "Efavirenz Tablets 600mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Efavirenz + Emtricitabine + Tenofovir",
+        "form": "Tablet",
+        "composition": "Efavirenz + Emtricitabine + Tenofovir DF Triple Combo",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tenofovir 300mg + Emtricitabine 200mg",
+        "form": "Tablet",
+        "composition": "Tenofovir DF USP 300mg & Emtricitabine 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Emtricitabine 200mg + Tenofovir AF 25mg",
+        "form": "Tablet",
+        "composition": "Emtricitabine USP 200mg & Tenofovir Alafenamide 25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Zidovudine 300mg + Lamivudine 150mg",
+        "form": "Tablet",
+        "composition": "Zidovudine BP 300mg & Lamivudine BP 150mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Lamivudine 150mg",
+        "form": "Tablet",
+        "composition": "Lamivudine Tablets BP 150mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Raltegravir 400mg",
+        "form": "Tablet",
+        "composition": "Raltegravir Tablets 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Raltegravir 100mg Chewable",
+        "form": "Tablet",
+        "composition": "Raltegravir Chewable Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Hydroxychloroquine 200/400mg",
+        "form": "Tablet",
+        "composition": "Hydroxychloroquine Sulfate Tablets BP 200mg/400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Quinine Sulphate 300/500mg",
+        "form": "Tablet",
+        "composition": "Quinine Sulphate Tablets BP 300mg/500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Artemether 20mg + Lumefantrine 120mg",
+        "form": "Tablet",
+        "composition": "Artemether 20mg & Lumefantrine 120mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Artemether 40mg + Lumefantrine 240mg",
+        "form": "Tablet",
+        "composition": "Artemether 40mg & Lumefantrine 240mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Artemether 80mg + Lumefantrine 480mg",
+        "form": "Tablet",
+        "composition": "Artemether 80mg & Lumefantrine 480mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Artemether + Lumefantrine 20/120 Dry Syrup",
+        "form": "Dry Syrup",
+        "composition": "Artemether 20mg & Lumefantrine 120mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Artemether + Lumefantrine 40/240 Dry Syrup",
+        "form": "Dry Syrup",
+        "composition": "Artemether 40mg & Lumefantrine 240mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Mefloquine HCl 250mg",
+        "form": "Tablet",
+        "composition": "Mefloquine HCl Tablets USP 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Primaquine Phosphate 15mg",
+        "form": "Tablet",
+        "composition": "Primaquine Phosphate Tablets USP 15mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Albendazole 400mg",
+        "form": "Tablet",
+        "composition": "Albendazole BP 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Albendazole 400mg Chewable",
+        "form": "Tablet",
+        "composition": "Albendazole Chewable Tablets USP 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Albendazole 200mg/5ml Suspension",
+        "form": "Suspension",
+        "composition": "Albendazole Oral Suspension USP 200mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Albendazole 400mg + Ivermectin 6mg",
+        "form": "Tablet",
+        "composition": "Albendazole BP 400mg & Ivermectin BP 6mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Mebendazole 100mg",
+        "form": "Tablet",
+        "composition": "Mebendazole Tablets USP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Mebendazole 500mg",
+        "form": "Tablet",
+        "composition": "Mebendazole Tablets USP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ethambutol 400mg",
+        "form": "Tablet",
+        "composition": "Ethambutol Tablets BP 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Isoniazid 100mg",
+        "form": "Tablet",
+        "composition": "Isoniazid Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Isoniazid 300mg",
+        "form": "Tablet",
+        "composition": "Isoniazid Tablets BP 300mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Rifampin 150/300mg",
+        "form": "Capsule",
+        "composition": "Rifampin Capsules USP 150mg/300mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Rifampicin + INH + Pyrazinamide + Ethambutol",
+        "form": "Tablet",
+        "composition": "Rifampicin 150mg, Isoniazid 75mg, Pyrazinamide 400mg, Ethambutol HCl 275mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pyrazinamide 500mg",
+        "form": "Tablet",
+        "composition": "Pyrazinamide Tablets BP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pyridoxine 40mg (Anti-TB)",
+        "form": "Tablet",
+        "composition": "Pyridoxine Tablets BP 40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Azathioprine 50mg",
+        "form": "Tablet",
+        "composition": "Azathioprine Tablets BP 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tacrolimus 0.1% Ointment",
+        "form": "Ointment",
+        "composition": "Tacrolimus Ointment 0.1% w/w",
+        "packing": "10g/20g/30g"
+      }
+    ],
+    "Gastrointestinal": [
+      {
+        "name": "Esomeprazole 40mg",
+        "form": "Tablet",
+        "composition": "Esomeprazole Gastro-Resistant Tablets BP 40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Esomeprazole 40mg",
+        "form": "Capsule",
+        "composition": "Esomeprazole Capsules BP 40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pantoprazole 20mg",
+        "form": "Tablet",
+        "composition": "Pantoprazole Sodium Tablets BP 20mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Omeprazole 20mg",
+        "form": "Capsule",
+        "composition": "Omeprazole Gastro-Resistant Capsules BP 20mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Esomeprazole 20mg",
+        "form": "Tablet",
+        "composition": "Esomeprazole Gastro-Resistant Tablets BP 20mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Esomeprazole 40mg + Domperidone 30mg SR",
+        "form": "Capsule",
+        "composition": "Esomeprazole Mg BP 40mg & Domperidone BP 30mg SR",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Omeprazole 20mg + Domperidone 10mg",
+        "form": "Capsule",
+        "composition": "Omeprazole BP 20mg & Domperidone BP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pantoprazole 20mg + Cinitapride 1mg",
+        "form": "Capsule",
+        "composition": "Pantoprazole USP 20mg & Cinitapride H 1mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pantoprazole 40mg + Domperidone 30mg",
+        "form": "Capsule",
+        "composition": "Pantoprazole GR BP 40mg & Domperidone PR BP 30mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ondansetron 4mg + Omeprazole 10mg",
+        "form": "Tablet",
+        "composition": "Ondansetron HCl USP 4mg & Omeprazole Mg BP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cisapride 5mg",
+        "form": "Tablet",
+        "composition": "Cisapride Tablets 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Fosfomycin Trometamol 8gm",
+        "form": "Sachet",
+        "composition": "Fosfomycin Trometamol Sachets 8gm",
+        "packing": "8gm"
+      },
+      {
+        "name": "Lansoprazole 30mg",
+        "form": "Capsule",
+        "composition": "Lansoprazole GR Capsules BP 30mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Metoclopramide 10mg",
+        "form": "Tablet",
+        "composition": "Metoclopramide Tablets BP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Bisacodyl 5mg",
+        "form": "Tablet",
+        "composition": "Bisacodyl GR Tablets BP 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Mebeverine 135mg",
+        "form": "Tablet",
+        "composition": "Mebeverine Tablets BP 135mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Omeprazole 20mg (\u00d72)",
+        "form": "Capsule",
+        "composition": "Omeprazole GR Capsules 20mg (\u00d72)",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pantoprazole 40mg",
+        "form": "Tablet",
+        "composition": "Pantoprazole Sodium Tablets BP 40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sucralfate + Oxetacaine Susp.",
+        "form": "Suspension",
+        "composition": "Sucralfate USP 1000mg & Oxetacaine 20mg/10ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sodium Bicarbonate 500mg",
+        "form": "Tablet",
+        "composition": "Sodium Bicarbonate Tablets USP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Simethicone 40mg",
+        "form": "Tablet",
+        "composition": "Simethicone Tablets USP 40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dimenhydrinate 50mg",
+        "form": "Tablet",
+        "composition": "Dimenhydrinate Tablets BP 50mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Promethazine 5mg/5ml",
+        "form": "Solution",
+        "composition": "Promethazine Oral Solution USP 5mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ondansetron 8mg",
+        "form": "Tablet",
+        "composition": "Ondansetron Tablets BP 8mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ondansetron Oral Solution",
+        "form": "Solution",
+        "composition": "Ondansetron HCl Oral Solution USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Omeprazole 20mg + Domperidone 10mg",
+        "form": "Capsule",
+        "composition": "Omeprazole BP 20mg & Domperidone BP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pantoprazole 40mg + Domperidone 30mg",
+        "form": "Capsule",
+        "composition": "Pantoprazole BP 40mg & Domperidone BP 30mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Antacid + Domperidone Susp.",
+        "form": "Suspension",
+        "composition": "Al(OH)3 215mg, Mg(OH)2 80mg, Simethicone 25mg & Domperidone 5mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Antacid Suspension",
+        "form": "Suspension",
+        "composition": "Dimethicone 250mg, Al(OH)3 250mg & Mg(OH)2 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dicyclomine + Paracetamol + Simethicone Drops",
+        "form": "Drops",
+        "composition": "Dicyclomine 10mg, Paracetamol 125mg & Simethicone 40mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Simeticone 80mg Chewable",
+        "form": "Tablet",
+        "composition": "Simeticone Chewable Tablets BP 80mg",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Pain & Inflammation": [
+      {
+        "name": "Aceclofenac 100mg",
+        "form": "Tablet",
+        "composition": "Aceclofenac Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu/Blister"
+      },
+      {
+        "name": "Diclofenac Sodium 50mg",
+        "form": "Tablet",
+        "composition": "Diclofenac Sodium Tablets BP 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diclofenac Potassium 50mg",
+        "form": "Tablet",
+        "composition": "Diclofenac Potassium Tablets USP 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diclofenac K Oral Solution",
+        "form": "Liquid",
+        "composition": "Diclofenac Potassium for Oral Solution",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Etoricoxib 90mg",
+        "form": "Tablet",
+        "composition": "Etoricoxib Tablets 90mg",
+        "packing": "10\u00d710 Alu-Alu/Blister"
+      },
+      {
+        "name": "Etoricoxib 120mg",
+        "form": "Tablet",
+        "composition": "Etoricoxib Tablets 120mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ketorolac 20mg Dispersible",
+        "form": "Tablet",
+        "composition": "Ketorolac Dispersible Tablets BP 20mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ketorolac Tromethamine 20mg",
+        "form": "Tablet",
+        "composition": "Ketorolac Tromethamine Dispersible Tablets BP 20mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Nimesulide 100mg",
+        "form": "Tablet",
+        "composition": "Nimesulide Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Nimesulide 100mg Mouth Dissolving",
+        "form": "Tablet",
+        "composition": "Nimesulide MD Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu/Blister"
+      },
+      {
+        "name": "Mefenamic Acid 250mg",
+        "form": "Tablet",
+        "composition": "Mefenamic Acid Tablets BP 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ibuprofen 600/800mg",
+        "form": "Tablet",
+        "composition": "Ibuprofen Tablets USP 600mg/800mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Naproxen 500mg",
+        "form": "Tablet",
+        "composition": "Naproxen Tablets BP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Celecoxib 200mg",
+        "form": "Capsule",
+        "composition": "Celecoxib USP 200mg Capsules",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dexketoprofen 12.5/25mg",
+        "form": "Tablet",
+        "composition": "Dexketoprofen Tablets USP 12.5mg/25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Aceclofenac + Thiocolchicoside",
+        "form": "Tablet",
+        "composition": "Aceclofenac BP 100mg & Thiocolchicoside BP 4mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Aceclofenac + Paracetamol",
+        "form": "Tablet",
+        "composition": "Aceclofenac BP 100mg & Paracetamol BP 325mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diclofenac K + Paracetamol",
+        "form": "Tablet",
+        "composition": "Diclofenac K BP 50mg & Paracetamol BP 325mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Nimesulide + Paracetamol",
+        "form": "Tablet",
+        "composition": "Nimesulide BP 100mg & Paracetamol BP 325mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Drotaverine + Mefenamic Acid",
+        "form": "Tablet",
+        "composition": "Drotaverine HCl 80mg & Mefenamic Acid BP 250mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Dicyclomine + Mefenamic Acid",
+        "form": "Tablet",
+        "composition": "Dicyclomine HCl BP 20mg & Mefenamic Acid BP 250mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Tranexamic Acid + Mefenamic Acid",
+        "form": "Tablet",
+        "composition": "Tranexamic Acid BP 500mg & Mefenamic Acid BP 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Paracetamol + Caffeine",
+        "form": "Tablet",
+        "composition": "Paracetamol BP 500mg & Caffeine BP 60mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Paracetamol 500/650mg",
+        "form": "Tablet",
+        "composition": "Paracetamol Tablets BP 500mg/650mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diclofenac K + Metaxalone",
+        "form": "Tablet",
+        "composition": "Diclofenac Potassium & Metaxalone Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Lornoxicam + Paracetamol",
+        "form": "Tablet",
+        "composition": "Lornoxicam & Paracetamol Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Paracetamol 125mg/5ml Suspension",
+        "form": "Suspension",
+        "composition": "Paracetamol Oral Suspension BP 125mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Mefenamic Acid + Paracetamol Susp.",
+        "form": "Suspension",
+        "composition": "Mefenamic Acid BP 50mg & Paracetamol BP 125mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ibuprofen + Paracetamol Suspension",
+        "form": "Suspension",
+        "composition": "Ibuprofen BP 100mg & Paracetamol BP 125mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diclofenac Diethylamine Gel",
+        "form": "Gel",
+        "composition": "Diclofenac Diethylamine BP 1.16%, Linseed Oil 3%, Methyl Salicylate 5% & Menthol",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Diclofenac Sodium Gel",
+        "form": "Gel",
+        "composition": "Diclofenac Sodium BP 1.16%, Methyl Salicylate BP 10%, Linseed Oil 3% & Menthol",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Thiocolchicoside 4mg",
+        "form": "Tablet",
+        "composition": "Thiocolchicoside BP 4mg Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tolperisone 150/450mg",
+        "form": "Tablet",
+        "composition": "Tolperisone HCl Tablet 150mg/450mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Allopurinol 100mg",
+        "form": "Tablet",
+        "composition": "Allopurinol Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Febuxostat 40mg",
+        "form": "Tablet",
+        "composition": "Febuxostat Tablets 40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Febuxostat 80mg",
+        "form": "Tablet",
+        "composition": "Febuxostat Tablets 80mg",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Cardiovascular": [
+      {
+        "name": "Amlodipine 5/10mg",
+        "form": "Tablet",
+        "composition": "Amlodipine Besylate Tablets USP 5mg/10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Atenolol 50/100mg",
+        "form": "Tablet",
+        "composition": "Atenolol Tablets USP 50mg/100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Bisoprolol Fumarate",
+        "form": "Tablet",
+        "composition": "Bisoprolol Fumarate Tablets USP/BP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Carvedilol 3.125/6.25mg",
+        "form": "Tablet",
+        "composition": "Carvedilol Tablets BP 3.125mg/6.25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Carvedilol",
+        "form": "Tablet",
+        "composition": "Carvedilol Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Labetalol 200mg",
+        "form": "Tablet",
+        "composition": "Labetalol Tablets BP 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Metoprolol Succinate ER 25mg",
+        "form": "Tablet",
+        "composition": "Metoprolol Succinate ER Tablets USP 25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Methyldopa 250mg",
+        "form": "Tablet",
+        "composition": "Methyldopa Tablets BP 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Prazosin 2.5mg",
+        "form": "Tablet",
+        "composition": "Prazosin Tablets BP 2.5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Hydralazine 25mg",
+        "form": "Tablet",
+        "composition": "Hydralazine Tablets BP 25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Losartan + Amlodipine + HCTZ",
+        "form": "Tablet",
+        "composition": "Losartan K, Amlodipine & Hydrochlorothiazide Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Doxazosin",
+        "form": "Tablet",
+        "composition": "Doxazosin Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Lisinopril 5/10mg",
+        "form": "Tablet",
+        "composition": "Lisinopril Tablets USP 5mg/10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Telmisartan",
+        "form": "Tablet",
+        "composition": "Telmisartan Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Losartan 50/100mg",
+        "form": "Tablet",
+        "composition": "Losartan K Tablets USP 50mg/100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Valsartan",
+        "form": "Tablet",
+        "composition": "Valsartan Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Amlodipine + Valsartan",
+        "form": "Tablet",
+        "composition": "Amlodipine & Valsartan Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Amlodipine + Valsartan + HCTZ",
+        "form": "Tablet",
+        "composition": "Amlodipine, Valsartan & HCTZ Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Atorvastatin 10/20/40mg",
+        "form": "Tablet",
+        "composition": "Atorvastatin Calcium Tablets USP 10/20/40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Atorvastatin 10-80mg",
+        "form": "Tablet",
+        "composition": "Atorvastatin Calcium Tablets BP 10/20/40/80mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Rosuvastatin + Fenofibrate",
+        "form": "Tablet",
+        "composition": "Rosuvastatin & Fenofibrate Tablets IP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Fenofibrate 160mg (\u00d72)",
+        "form": "Tablet",
+        "composition": "Fenofibrate Tablets USP 160mg (\u00d72)",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ticagrelor 90mg",
+        "form": "Tablet",
+        "composition": "Ticagrelor Tablets BP 90mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Rivaroxaban 2.5/10/15/20mg",
+        "form": "Tablet",
+        "composition": "Rivaroxaban Tablets BP 2.5/10/15/20mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Isosorbide Dinitrate 10mg",
+        "form": "Tablet",
+        "composition": "Isosorbide Dinitrate Tablets BP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Nitroglycerin SR 2.6mg",
+        "form": "Tablet",
+        "composition": "Nitroglycerin SR Tablets 2.6mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Furosemide 40mg",
+        "form": "Tablet",
+        "composition": "Furosemide Tablets BP 40mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "HCTZ 12.5/25/50mg",
+        "form": "Tablet",
+        "composition": "Hydrochlorothiazide Tablets BP 12.5/25/50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Spironolactone 25mg",
+        "form": "Tablet",
+        "composition": "Spironolactone Tablets BP 25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Nifedipine PR 30mg",
+        "form": "Tablet",
+        "composition": "Nifedipine PR Tablets BP 30mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Prasugrel HCl",
+        "form": "Tablet",
+        "composition": "Prasugrel HCl Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Neurological & Mental Health": [
+      {
+        "name": "Pregabalin 150mg",
+        "form": "Capsule",
+        "composition": "Pregabalin Capsules BP 150mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Gabapentin 300mg",
+        "form": "Capsule",
+        "composition": "Gabapentin Capsules USP 300mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Lamotrigine ER 50/100mg",
+        "form": "Tablet",
+        "composition": "Lamotrigine ER Tablets USP 50/100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levetiracetam 500mg",
+        "form": "Tablet",
+        "composition": "Levetiracetam Tablets USP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sodium Valproate 500mg",
+        "form": "Tablet",
+        "composition": "Sodium Valproate Tablets BP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Carbamazepine 100mg Chewable",
+        "form": "Tablet",
+        "composition": "Carbamazepine Chewable Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Carbamazepine 200/400mg",
+        "form": "Tablet",
+        "composition": "Carbamazepine Tablets USP 200/400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pregabalin 750mcg + Methylcobalamin 50mg",
+        "form": "Tablet",
+        "composition": "Pregabalin 750mcg & Methylcobalamin 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pregabalin 75mg + Methylcobalamin 1500mcg",
+        "form": "Tablet",
+        "composition": "Pregabalin 75mg & Methylcobalamin 1500mcg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pregabalin 75mg + Methylcobalamin 750mcg",
+        "form": "Tablet",
+        "composition": "Pregabalin 75mg & Methylcobalamin 750mcg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Phenytoin 100mg",
+        "form": "Tablet",
+        "composition": "Phenytoin Tablets BP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Lithium Carbonate 300mg",
+        "form": "Tablet",
+        "composition": "Lithium Carbonate Tablets USP 300mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Modafinil 300mg",
+        "form": "Tablet",
+        "composition": "Modafinil Tablets USP 300mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Betahistine 6/12mg",
+        "form": "Tablet",
+        "composition": "Betahistine Mesilate Tablets JP 6/12mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Escitalopram 10mg",
+        "form": "Tablet",
+        "composition": "Escitalopram Oxalate Tablets USP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Amitriptyline 25mg",
+        "form": "Tablet",
+        "composition": "Amitriptyline HCl Tablets USP 25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Fluoxetine 20mg",
+        "form": "Capsule",
+        "composition": "Fluoxetine HCl Capsules BP 20mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Flupentixol 0.5mg",
+        "form": "Tablet",
+        "composition": "Flupentixol HCl Tablets 0.5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Naltrexone",
+        "form": "Tablet",
+        "composition": "Naltrexone HCl Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Risperidone 1/2/3/4mg",
+        "form": "Tablet",
+        "composition": "Risperidone Tablets USP 1/2/3/4mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Olanzapine ODT 5/10mg",
+        "form": "Tablet",
+        "composition": "Olanzapine ODT USP 5/10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Olanzapine 5/10mg",
+        "form": "Tablet",
+        "composition": "Olanzapine Tablets USP 5/10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Aripiprazole 5/10mg",
+        "form": "Tablet",
+        "composition": "Aripiprazole Tablets USP 5/10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levosulpiride 25mg",
+        "form": "Tablet",
+        "composition": "Levosulpiride Tablets 25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Haloperidol 5mg",
+        "form": "Tablet",
+        "composition": "Haloperidol Tablets BP 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Amisulpride 50mg",
+        "form": "Tablet",
+        "composition": "Amisulpride Tablets BP 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levodopa 100mg + Carbidopa 25mg",
+        "form": "Tablet",
+        "composition": "Levodopa USP 100mg & Carbidopa USP 25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Citicoline 500mg",
+        "form": "Tablet",
+        "composition": "Citicoline Sodium Tablets 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Citicoline 500mg Chewable",
+        "form": "Tablet",
+        "composition": "Citicoline Chewable Tablet 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Citicoline CR 1000mg",
+        "form": "Tablet",
+        "composition": "Citicoline CR Tablets USP 1000mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Citicoline 500mg + Piracetam 400mg",
+        "form": "Tablet",
+        "composition": "Citicoline 500mg & Piracetam 400mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Choline Bitartrate 500mg",
+        "form": "Tablet",
+        "composition": "Choline Bitartrate USP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Hormonal & Endocrine": [
+      {
+        "name": "Levothyroxine 12.5-100mcg",
+        "form": "Tablet",
+        "composition": "Levothyroxine Sodium Tablets 12.5-100mcg",
+        "packing": "100/12 tabs HPDE"
+      },
+      {
+        "name": "Liothyronine Sodium",
+        "form": "Tablet",
+        "composition": "Liothyronine Sodium Tablets BP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cabergoline 0.25mg",
+        "form": "Tablet",
+        "composition": "Cabergoline Tablets BP 0.25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Medroxyprogesterone 10mg",
+        "form": "Tablet",
+        "composition": "Medroxyprogesterone Acetate Tablets USP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Clomifene 50mg",
+        "form": "Tablet",
+        "composition": "Clomifene Tablets BP 50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Desogestrel 0.075mg",
+        "form": "Tablet",
+        "composition": "Desogestrel Tablets 0.075mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Desogestrel + Ethinylestradiol",
+        "form": "Tablet",
+        "composition": "Desogestrel 0.15mg & Ethinyl Estradiol 0.02mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cyproterone + Ethinylestradiol",
+        "form": "Tablet",
+        "composition": "Cyproterone Acetate 2mg & Ethinylestradiol 0.035mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Drospirenone + Ethinylestradiol",
+        "form": "Tablet",
+        "composition": "Drospirenone 3mg & Ethinylestradiol 0.03mg",
+        "packing": "1\u00d721 Blister"
+      },
+      {
+        "name": "Levonorgestrel + EE + Ferrous Fumarate",
+        "form": "Tablet",
+        "composition": "Combipack Levonorgestrel 0.15mg & EE 0.03mg with Ferrous Fumarate 60mg",
+        "packing": "1\u00d721 Blister"
+      },
+      {
+        "name": "Ethinylestradiol + Gestodene",
+        "form": "Tablet",
+        "composition": "Ethinylestradiol 0.03mg & Gestodene 0.075mg",
+        "packing": "1\u00d721 Blister"
+      },
+      {
+        "name": "Levonorgestrel 1.5mg (EC)",
+        "form": "Tablet",
+        "composition": "Levonorgestrel Tablets BP 1.5mg",
+        "packing": "1\u00d71 Blister"
+      },
+      {
+        "name": "Methimazole 5/10mg",
+        "form": "Tablet",
+        "composition": "Methimazole Tablets USP 5/10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Gynecological": [
+      {
+        "name": "Mifepristone + Misoprostol",
+        "form": "Tablet",
+        "composition": "Combipack of Mifepristone & Misoprostol Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Misoprostol 200mcg",
+        "form": "Tablet",
+        "composition": "Misoprostol Tablets 200mcg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levonorgestrel 1.5mg",
+        "form": "Tablet",
+        "composition": "Levonorgestrel Tablets BP 1.5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levonorgestrel 0.75mg",
+        "form": "Tablet",
+        "composition": "Levonorgestrel Tablets BP 0.75mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ulipristal Acetate",
+        "form": "Tablet",
+        "composition": "Ulipristal Acetate Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Drospirenone + EE (\u00d72)",
+        "form": "Tablet",
+        "composition": "Drospirenone & Ethinylestradiol Tablets USP (\u00d72)",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ethinylestradiol + Gestodene",
+        "form": "Tablet",
+        "composition": "Ethinylestradiol & Gestodene Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dydrogesterone 10/30mg",
+        "form": "Tablet",
+        "composition": "Dydrogesterone Tablets BP 10/30mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Norethisterone (\u00d74)",
+        "form": "Tablet",
+        "composition": "Norethisterone Tablets BP (\u00d74)",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Norethisterone CR 10/15mg",
+        "form": "Tablet",
+        "composition": "Norethisterone Acetate CR Tablets 10/15mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Progesterone 500mg",
+        "form": "Tablet",
+        "composition": "Progesterone Tablets BP 500mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Progesterone SR 200/300/400mg",
+        "form": "Tablet",
+        "composition": "Progesterone SR Tablets 200/300/400mg",
+        "packing": "10\u00d710 Alu-Alu/Blister"
+      },
+      {
+        "name": "Dienogest (\u00d72)",
+        "form": "Tablet",
+        "composition": "Dienogest Tablets (\u00d72)",
+        "packing": "10\u00d710 Blister"
+      }
+    ],
+    "Respiratory": [
+      {
+        "name": "Salbutamol + Bromhexine + Guaifenesin + Menthol",
+        "form": "Syrup",
+        "composition": "Salbutamol, Bromhexine HCl, Guaifenesin & Menthol Syrup",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diphenhydramine + Guaiphenesin + Bromhexine",
+        "form": "Syrup",
+        "composition": "Diphenhydramine HCl, Guaiphenesin, Bromhexine HCl, NH4Cl & Menthol",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diphenhydramine + NH4Cl + Sodium Citrate",
+        "form": "Syrup",
+        "composition": "Diphenhydramine HCl, NH4Cl, Sodium Citrate & Menthol Syrup",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Bromhexine HCl Syrup",
+        "form": "Syrup",
+        "composition": "Bromhexine HCl Syrup",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cyproheptadine HCl Syrup",
+        "form": "Syrup",
+        "composition": "Cyproheptadine HCl Syrup USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cetirizine + Phenylephrine + Paracetamol",
+        "form": "Tablet",
+        "composition": "Cetirizine HCl, Phenylephrine HCl & Paracetamol",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Diphenhydramine + Phenylephrine + Caffeine + Paracetamol",
+        "form": "Tablet",
+        "composition": "Diphenhydramine HCl, Phenylephrine HCl, Caffeine & Paracetamol",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Dermatology": [
+      {
+        "name": "Neomycin Cream",
+        "form": "Cream",
+        "composition": "Neomycin Cream BP USP 0.5%",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Gentamicin 0.1% Cream",
+        "form": "Cream",
+        "composition": "Gentamicin Cream BP 0.1% w/w",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Fusidic Acid Cream",
+        "form": "Cream",
+        "composition": "Fusidic Acid Cream BP 20mg",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Silver Sulfadiazine 1% Cream",
+        "form": "Cream",
+        "composition": "Silver Sulfadiazine Cream USP 1% w/w",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Clindamycin + Nicotinamide Gel",
+        "form": "Cream",
+        "composition": "Clindamycin Phosphate BP 1% & Nicotinamide Gel 4%",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Ketoconazole 2% + Zinc Pyrithione 1% Lotion",
+        "form": "Lotion",
+        "composition": "Ketoconazole 2% & Zinc Pyrithione Lotion BP 1%",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Hydroquinone + Tretinoin + Mometasone Cream",
+        "form": "Cream",
+        "composition": "Hydroquinone 2%, Tretinoin 0.025% & Mometasone 0.1%",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Hydrocortisone 1% Cream",
+        "form": "Cream",
+        "composition": "Hydrocortisone Cream BP 1%",
+        "packing": "10g/20g/30g"
+      },
+      {
+        "name": "Calamine Lotion 10%",
+        "form": "Lotion",
+        "composition": "Calamine Lotion BP 10%",
+        "packing": "20ml"
+      },
+      {
+        "name": "Anti-Hemorrhoidal Cream",
+        "form": "Cream",
+        "composition": "Anti-Hemorrhoidal Cream",
+        "packing": "10g/20g/30g"
+      }
+    ],
+    "Urology": [
+      {
+        "name": "Finasteride 5mg",
+        "form": "Tablet",
+        "composition": "Finasteride Tablets USP/BP 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tamsulosin 0.4mg",
+        "form": "Capsule",
+        "composition": "Tamsulosin HCl MR USP 0.4mg Capsules",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tamsulosin 0.4mg + Dutasteride 0.5mg",
+        "form": "Capsule",
+        "composition": "Tamsulosin HCl PR 0.4mg & Dutasteride 0.5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tamsulosin PR 0.4mg",
+        "form": "Tablet",
+        "composition": "Tamsulosin PR Tablets BP 0.4mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Nitrofurantoin SR",
+        "form": "Tablet",
+        "composition": "Nitrofurantoin SR Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Solifenacin 5/10mg",
+        "form": "Tablet",
+        "composition": "Solifenacin Succinate Tablets BP 5/10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Orthopaedics, Nutrition & Allergy": [
+      {
+        "name": "Calcium + Zinc + Vit D3 Suspension",
+        "form": "Suspension",
+        "composition": "Calcium, Zinc with Vitamin D3 Suspension",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Calcium Citrate + Vit D3 + Folic Acid (\u00d72)",
+        "form": "Tablet",
+        "composition": "Calcium Citrate Malate, Vit D3 & Folic Acid (\u00d72)",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cholecalciferol 200000 IU",
+        "form": "Tablet",
+        "composition": "Cholecalciferol Tablets IP 200000 IU",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Alendronic Acid 70mg",
+        "form": "Tablet",
+        "composition": "Alendronic Acid Tablets BP 70mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Glucosamine 500mg",
+        "form": "Tablet",
+        "composition": "Glucosamine Tablets USP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Glucosamine + Chondroitin",
+        "form": "Tablet",
+        "composition": "Glucosamine Sulphate & Chondroitin Sulphate Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cholecalciferol 60000 IU Sachet",
+        "form": "Sachet",
+        "composition": "Cholecalciferol Granules BP 60000 IU",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cholecalciferol 60000 IU Tablet",
+        "form": "Tablet",
+        "composition": "Cholecalciferol Tablets USP 60000 IU",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ferrous Ascorbate + Folic Acid",
+        "form": "Tablet",
+        "composition": "Ferrous Ascorbate 100mg & Folic Acid 1.5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Carbonyl Iron + Zinc + Folic Acid",
+        "form": "Capsule",
+        "composition": "Carbonyl Iron 50mg, Zinc 61.8mg & Folic Acid 0.5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Folic Acid 5mg",
+        "form": "Tablet",
+        "composition": "Folic Acid Tablets USP 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Vitamin C Syrup (\u00d72)",
+        "form": "Syrup",
+        "composition": "Vitamin C Syrup (\u00d72)",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Vitamin C + Zinc + Vit D3 Syrup",
+        "form": "Syrup",
+        "composition": "Vitamin C, Zinc Sulfate & Vit D3 Syrup",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Vitamin B-Complex Syrup",
+        "form": "Syrup",
+        "composition": "Vitamin B-Complex Syrup",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Biotin 5/10mg",
+        "form": "Tablet",
+        "composition": "Biotin Tablet USP 5/10mg",
+        "packing": "30 tabs bottle"
+      },
+      {
+        "name": "Pre & Probiotic Sachet",
+        "form": "Sachet",
+        "composition": "Pre & Probiotic Sachet 1gm",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levocetirizine 5mg",
+        "form": "Tablet",
+        "composition": "Levocetirizine HCl Tablets USP 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cetirizine 10mg",
+        "form": "Tablet",
+        "composition": "Cetirizine HCl Tablets USP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cyproheptadine 4mg",
+        "form": "Tablet",
+        "composition": "Cyproheptadine HCl Tablets USP 4mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levocetirizine + Montelukast",
+        "form": "Tablet",
+        "composition": "Levocetirizine 5mg & Montelukast 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levocetirizine 10mg + Montelukast 10mg",
+        "form": "Tablet",
+        "composition": "Levocetirizine 10mg & Montelukast 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Desloratadine",
+        "form": "Tablet",
+        "composition": "Desloratadine Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levocetirizine + Montelukast Syrup",
+        "form": "Syrup",
+        "composition": "Levocetirizine 2.5mg & Montelukast 4mg/5ml",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ginseng + Ginkgo + Cyanocobalamin Syrup",
+        "form": "Syrup",
+        "composition": "Ginseng, Ginkgo Biloba & Cyanocobalamin Syrup",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Metabolic & Miscellaneous": [
+      {
+        "name": "Metformin 500/850/1000mg",
+        "form": "Tablet",
+        "composition": "Metformin HCl Tablets USP 500/850/1000mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Gliclazide 80mg",
+        "form": "Tablet",
+        "composition": "Gliclazide Tablets BP 80mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Glimepiride 1/2/3/4mg",
+        "form": "Tablet",
+        "composition": "Glimepiride Tablets USP 1/2/3/4mg",
+        "packing": "10\u00d710 Alu-Alu/Blister"
+      },
+      {
+        "name": "Vildagliptin + Metformin",
+        "form": "Tablet",
+        "composition": "Vildagliptin BP 50mg & Metformin HCl BP 500mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Glibenclamide 5mg",
+        "form": "Tablet",
+        "composition": "Glibenclamide Tablets BP 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Glipizide 2.5mg",
+        "form": "Tablet",
+        "composition": "Glipizide Tablets BP 2.5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Repaglinide 0.5/1/2mg",
+        "form": "Tablet",
+        "composition": "Repaglinide Tablets BP/USP 0.5/1/2mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Empagliflozin 10/25mg",
+        "form": "Tablet",
+        "composition": "Empagliflozin Tablets 10/25mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dapagliflozin 10mg",
+        "form": "Tablet",
+        "composition": "Dapagliflozin Tablets USP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Orlistat 120/60mg",
+        "form": "Capsule",
+        "composition": "Orlistat Capsules USP 120/60mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Orlistat 120mg Tablet",
+        "form": "Tablet",
+        "composition": "Orlistat Tablets 120mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Deflazacort 6/30mg",
+        "form": "Tablet",
+        "composition": "Deflazacort Tablets 6/30mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dexamethasone 1mg",
+        "form": "Tablet",
+        "composition": "Dexamethasone Tablets BP 1mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Prednisolone 5mg",
+        "form": "Tablet",
+        "composition": "Prednisolone Tablets BP 5mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Hydrocortisone 10mg",
+        "form": "Tablet",
+        "composition": "Hydrocortisone Tablets USP 10mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sildenafil 100mg",
+        "form": "Tablet",
+        "composition": "Sildenafil Citrate Tablets BP 100mg",
+        "packing": "10\u00d74 Alu-Alu/Blister"
+      },
+      {
+        "name": "Sildenafil 20/50mg",
+        "form": "Tablet",
+        "composition": "Sildenafil Citrate Tablets BP 20/50mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tadalafil 50/100mg",
+        "form": "Tablet",
+        "composition": "Tadalafil Tablets USP 50/100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Vardenafil 10/20mg",
+        "form": "Tablet",
+        "composition": "Vardenafil HCl Tablets 10/20mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Disulfiram 250/500mg",
+        "form": "Tablet",
+        "composition": "Disulfiram Tablets USP/BP 250/500mg",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Sodium Picosulfate Solution",
+        "form": "Solution",
+        "composition": "Sodium Picosulfate Oral Solution BP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tranexamic Acid 250mg",
+        "form": "Tablet",
+        "composition": "Tranexamic Acid Tablets USP 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Trypsin + Bromelain + Rutoside",
+        "form": "Tablet",
+        "composition": "Trypsin 48mg, Bromelain 90mg & Rutoside Trihydrate 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Trypsin-Chymotrypsin + Diclofenac K",
+        "form": "Tablet",
+        "composition": "Trypsin-Chymotrypsin & Diclofenac K Tablets",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Disodium Hydrogen Citrate Syrup",
+        "form": "Syrup",
+        "composition": "Disodium Hydrogen Citrate Syrup",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Calcium Acetate",
+        "form": "Tablet",
+        "composition": "Calcium Acetate Tablets USP",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "L-Glutamine Powder",
+        "form": "Powder",
+        "composition": "L-Glutamine Oral Powder",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Pirfenidone 200mg",
+        "form": "Tablet",
+        "composition": "Pirfenidone Tablets 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Ethamsylate 250mg",
+        "form": "Tablet",
+        "composition": "Ethamsylate Tablets 250mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sirolimus 1/2mg",
+        "form": "Tablet",
+        "composition": "Sirolimus Tablets 1/2mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Clomiphene Citrate 100mg",
+        "form": "Tablet",
+        "composition": "Clomiphene Citrate Tablets USP 100mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cyclandelate 200mg",
+        "form": "Capsule",
+        "composition": "Cyclandelate Capsules 200mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Sulfasalazine DR 1000mg",
+        "form": "Tablet",
+        "composition": "Sulfasalazine DR Tablets USP 1000mg",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ]
+  },
+  "Hormonal Products": {
+    "Oral Contraceptives": [
+      {
+        "name": "Dienogest 2mg + EE 30mcg",
+        "form": "Tablet",
+        "composition": "Dienogest 2mg + Ethinylestradiol 30mcg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Cyproterone 2mg + EE 0.035mg",
+        "form": "Tablet",
+        "composition": "Cyproterone Acetate 2mg + Ethinylestradiol 0.035mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Desogestrel 0.15mg + EE 0.02/0.03mg",
+        "form": "Tablet",
+        "composition": "Desogestrel 0.15mg + Ethinylestradiol 0.02/0.03mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Drospirenone 3mg + EE 0.02/0.03mg",
+        "form": "Tablet",
+        "composition": "Drospirenone 3mg + Ethinylestradiol 0.02/0.03mg",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Levonorgestrel 0.15mg + EE 0.03mg",
+        "form": "Tablet",
+        "composition": "Levonorgestrel 0.15mg + Ethinylestradiol 0.03mg",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Emergency Contraception": [
+      {
+        "name": "Levonorgestrel 1.5mg (72-Hour)",
+        "form": "Tablet",
+        "composition": "Levonorgestrel 1.5mg \u2014 Emergency Contraceptive Pill (72 Hours)",
+        "packing": "1\u00d71 Blister"
+      },
+      {
+        "name": "Ulipristal Acetate 5mg",
+        "form": "Tablet",
+        "composition": "Ulipristal Acetate 5mg \u2014 Emergency Contraception",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Menstrual Health": [
+      {
+        "name": "Tranexamic Acid 250/500mg",
+        "form": "Tablet",
+        "composition": "Tranexamic Acid \u2014 Heavy Menstrual Bleeding",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+        "form": "Tablet",
+        "composition": "Tranexamic Acid 500mg + Mefenamic Acid 250mg \u2014 Dysmenorrhea",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dydrogesterone 10mg",
+        "form": "Tablet",
+        "composition": "Dydrogesterone 10mg \u2014 Menstrual Disorders",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Dicyclomine 20mg + Mefenamic Acid 250mg",
+        "form": "Tablet",
+        "composition": "Dicyclomine 20mg + Mefenamic Acid 250mg \u2014 Dysmenorrhea",
+        "packing": "10\u00d710 Blister"
+      },
+      {
+        "name": "Norethisterone 5/10/20mg",
+        "form": "Tablet",
+        "composition": "Norethisterone 5/10/20mg \u2014 Postpone Periods",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Medroxyprogesterone 10mg",
+        "form": "Tablet",
+        "composition": "Medroxyprogesterone 10mg \u2014 Irregular Cycles & Amenorrhea",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Progesterone (Micronized) 200/300/400mg",
+        "form": "Tablet",
+        "composition": "Progesterone Natural Micronized \u2014 Menstrual Problems & Infertility",
+        "packing": "10\u00d710 Alu-Alu/Blister"
+      }
+    ],
+    "Fertility & Menopause": [
+      {
+        "name": "Clomifene Citrate 25/50/100mg",
+        "form": "Tablet",
+        "composition": "Clomifene Citrate \u2014 Female Infertility",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Dienogest 2mg",
+        "form": "Tablet",
+        "composition": "Dienogest 2mg \u2014 Endometriosis Treatment",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Estradiol Valerate 2mg (Micronized)",
+        "form": "Tablet",
+        "composition": "Estradiol Valerate 2mg Micronized \u2014 Menopausal Symptoms",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "L-5 Methyltetrahydrofolate 800mcg",
+        "form": "Tablet",
+        "composition": "L-5 Methyltetrahydrofolate 800mcg \u2014 Low Folate Levels",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Doxylamine + Folic Acid + Pyridoxine",
+        "form": "Tablet",
+        "composition": "Doxylamine 10/20mg + Folic Acid 2.5/5mg + Pyridoxine 10/20mg \u2014 Pregnancy Nausea & Vomiting",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Gynaecological Anti-Infectives": [
+      {
+        "name": "Fluconazole 150/200mg",
+        "form": "Tablet",
+        "composition": "Fluconazole \u2014 Vaginal Candidiasis",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Fluconazole + Azithromycin + Secnidazole",
+        "form": "Sachet",
+        "composition": "Fluconazole 150mg + Azithromycin 1g + Secnidazole 1g \u2014 BV, Trichomoniasis & Candidiasis",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Fosfomycin Tromethamine 3gm",
+        "form": "Sachet",
+        "composition": "Fosfomycin Tromethamine 3gm \u2014 UTIs in Women",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ],
+    "Anti-Thyroid": [
+      {
+        "name": "Levothyroxine Sodium 25mcg",
+        "form": "Tablet",
+        "composition": "Levothyroxine Sodium 25mcg \u2014 Hypothyroidism",
+        "packing": "10\u00d710 Alu-Alu"
+      },
+      {
+        "name": "Thyroxine Sodium 12.5-150mcg",
+        "form": "Tablet",
+        "composition": "Thyroxine Sodium 12.5-150mcg \u2014 Primary Hypothyroidism",
+        "packing": "100/12 tabs HPDE"
+      },
+      {
+        "name": "Sildenafil 50/100mg",
+        "form": "Tablet",
+        "composition": "Sildenafil 50/100mg \u2014 Erectile Dysfunction",
+        "packing": "10\u00d710 Alu-Alu"
+      }
+    ]
+  }
+}
