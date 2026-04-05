@@ -1,13 +1,52 @@
-import { useEffect, useRef, useState } from 'react';
-import { ArrowRight } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { ArrowRight, Pill } from 'lucide-react';
+import medicationsCatalog from '../medications_data.json';
 import { productsConfig } from '../config';
 
-const Products = () => {
-  if (!productsConfig.heading && productsConfig.products.length === 0) return null;
+interface MedicationEntry {
+  id: string;
+  range: string;
+  category: string;
+  name: string;
+  form: string;
+  composition: string;
+  packing: string;
+}
 
+type CatalogJson = Record<
+  string,
+  Record<string, Array<{ name: string; form: string; composition: string; packing: string }>>
+>;
+
+const catalogData = medicationsCatalog as CatalogJson;
+
+const Products = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
-  const [activeCategory, setActiveCategory] = useState(productsConfig.categories[0] || 'All');
+  const [activeCategory, setActiveCategory] = useState('All');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [visibleCount, setVisibleCount] = useState(9);
+
+  const medications = useMemo<MedicationEntry[]>(() => {
+    return Object.entries(catalogData).flatMap(([range, categories]) =>
+      Object.entries(categories).flatMap(([category, items]) =>
+        items.map((item, index) => ({
+          id: `${range}-${category}-${item.name}-${index}`,
+          range,
+          category,
+          name: item.name,
+          form: item.form,
+          composition: item.composition,
+          packing: item.packing,
+        }))
+      )
+    );
+  }, []);
+
+  const categories = useMemo(
+    () => ['All', ...new Set(medications.map((item) => item.category))],
+    [medications]
+  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -27,18 +66,30 @@ const Products = () => {
     return () => observer.disconnect();
   }, []);
 
-  const filteredProducts = activeCategory === productsConfig.categories[0]
-    ? productsConfig.products
-    : productsConfig.products.filter(p => p.category === activeCategory);
+  useEffect(() => {
+    setVisibleCount(9);
+  }, [activeCategory, searchTerm]);
+
+  const filteredProducts = useMemo(() => {
+    const query = searchTerm.trim().toLowerCase();
+
+    return medications.filter((item) => {
+      const matchesCategory = activeCategory === 'All' || item.category === activeCategory;
+      const matchesSearch =
+        query.length === 0 ||
+        item.name.toLowerCase().includes(query) ||
+        item.composition.toLowerCase().includes(query) ||
+        item.form.toLowerCase().includes(query);
+
+      return matchesCategory && matchesSearch;
+    });
+  }, [activeCategory, medications, searchTerm]);
+
+  const displayedProducts = filteredProducts.slice(0, visibleCount);
 
   return (
-    <section
-      id="products"
-      ref={sectionRef}
-      className="py-24 md:py-32 bg-white"
-    >
+    <section id="products" ref={sectionRef} className="py-24 md:py-32 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-[60px]">
-        {/* Header */}
         <div className="text-center mb-12">
           <span
             className={`inline-block mb-4 text-sm tracking-[0.2em] text-[#7b4397] font-medium uppercase transition-all duration-700 ${
@@ -61,81 +112,90 @@ const Products = () => {
             }`}
             style={{ transitionDelay: '400ms' }}
           >
-            {productsConfig.description}
+            Browse {medications.length}+ medicine SKUs across {categories.length - 1} therapeutic categories.
           </p>
         </div>
 
-        {/* Category Filter */}
-        {productsConfig.categories.length > 0 && (
-          <div
-            className={`flex flex-wrap justify-center gap-4 mb-12 transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
-            style={{ transitionDelay: '600ms' }}
-          >
-            {productsConfig.categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setActiveCategory(category)}
-                className={`px-6 py-2 text-sm tracking-wide transition-all duration-300 ${
-                  activeCategory === category
-                    ? 'bg-[#7b4397] text-white'
-                    : 'bg-[#fafafa] text-[#696969] hover:bg-[#f0f0f0]'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
+        <div
+          className={`mb-8 transition-all duration-700 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+          }`}
+          style={{ transitionDelay: '550ms' }}
+        >
+          <div className="max-w-xl mx-auto">
+            <input
+              type="search"
+              value={searchTerm}
+              onChange={(event) => setSearchTerm(event.target.value)}
+              placeholder="Search medicine name, composition, or form..."
+              className="w-full px-4 py-3 border border-[#ececec] rounded-none text-sm focus:outline-none focus:border-[#7b4397]"
+            />
           </div>
-        )}
+        </div>
 
-        {/* Products Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredProducts.map((product, index) => (
-            <div
-              key={product.id}
-              className={`group bg-[#fafafa] border border-[#f5f5f5] transition-all duration-700 ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+        <div
+          className={`flex flex-wrap justify-center gap-3 mb-12 transition-all duration-700 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+          }`}
+          style={{ transitionDelay: '600ms' }}
+        >
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              className={`px-4 py-2 text-xs md:text-sm tracking-wide transition-all duration-300 ${
+                activeCategory === category
+                  ? 'bg-[#7b4397] text-white'
+                  : 'bg-[#fafafa] text-[#696969] hover:bg-[#f0f0f0]'
               }`}
-              style={{ transitionDelay: `${800 + index * 100}ms` }}
             >
-              {/* Image Container */}
-              <div className="relative h-[400px] overflow-hidden bg-[#fafafa]">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
-                />
-
-                {/* View Details Button */}
-                <button
-                  className="absolute bottom-4 left-1/2 -translate-x-1/2 px-6 py-3 flex items-center gap-2 text-sm tracking-wide transition-all duration-300 bg-[#7b4397] text-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0"
-                >
-                  <span>Explore Range</span>
-                  <ArrowRight size={16} />
-                </button>
-              </div>
-
-              {/* Product Info */}
-              <div className="p-5 bg-white">
-                <span className="text-xs text-[#7b4397] tracking-wide uppercase">{product.category}</span>
-                <h3 className="font-serif text-xl text-black mt-1">{product.name}</h3>
-                <p className="text-[#696969] text-sm mt-2">Comprehensive therapeutic solutions</p>
-              </div>
-            </div>
+              {category}
+            </button>
           ))}
         </div>
 
-        {/* View All Link */}
-        {productsConfig.viewAllText && (
-          <div
-            className={`text-center mt-12 transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
-            style={{ transitionDelay: '1200ms' }}
-          >
-            <button className="px-12 py-4 border-2 border-[#7b4397] text-[#7b4397] font-light tracking-widest text-sm hover:bg-[#7b4397] hover:text-white transition-all duration-300">
-              {productsConfig.viewAllText}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {displayedProducts.map((product, index) => (
+            <article
+              key={product.id}
+              className={`bg-[#fafafa] border border-[#f0f0f0] p-6 transition-all duration-700 hover:border-[#d7c4e3] hover:shadow-sm ${
+                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}
+              style={{ transitionDelay: `${700 + index * 40}ms` }}
+            >
+              <div className="flex items-start justify-between gap-4 mb-4">
+                <div>
+                  <p className="text-[11px] tracking-[0.15em] uppercase text-[#7b4397] mb-1">{product.category}</p>
+                  <h3 className="font-serif text-xl leading-tight text-black">{product.name}</h3>
+                </div>
+                <span className="inline-flex items-center gap-1 text-xs px-2.5 py-1 bg-white border border-[#ececec] text-[#555]">
+                  <Pill size={13} />
+                  {product.form}
+                </span>
+              </div>
+
+              <p className="text-sm text-[#666] min-h-[56px]">{product.composition}</p>
+
+              <div className="mt-4 pt-4 border-t border-[#ececec] flex items-center justify-between gap-3">
+                <p className="text-xs text-[#666]">Pack: {product.packing}</p>
+                <p className="text-xs text-[#9a9a9a]">{product.range}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        {filteredProducts.length === 0 && (
+          <div className="text-center mt-10 text-[#696969]">No medicines found for this filter.</div>
+        )}
+
+        {visibleCount < filteredProducts.length && (
+          <div className="text-center mt-12">
+            <button
+              onClick={() => setVisibleCount((current) => current + 9)}
+              className="px-8 py-3 border border-[#7b4397] text-[#7b4397] inline-flex items-center gap-2 hover:bg-[#7b4397] hover:text-white transition-all duration-300"
+            >
+              Show More
+              <ArrowRight size={16} />
             </button>
           </div>
         )}
