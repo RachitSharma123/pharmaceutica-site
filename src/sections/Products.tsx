@@ -13,12 +13,36 @@ interface MedicationEntry {
   packing: string;
 }
 
+interface MedicationFamily {
+  id: string;
+  name: string;
+  categories: string[];
+  ranges: string[];
+  forms: string[];
+  compositions: string[];
+  packings: string[];
+  variants: MedicationEntry[];
+}
+
 type CatalogJson = Record<
   string,
   Record<string, Array<{ name: string; form: string; composition: string; packing: string }>>
 >;
 
 const catalogData = medicationsCatalog as CatalogJson;
+
+const normalizeMedicationName = (name: string): string => {
+  const stripped = name
+    .replace(/\b\d+(?:\.\d+)?\s*(?:mg|mcg|g|ml|iu|%)(?:\/[\d.]+\s*(?:mg|mcg|g|ml))?\b/gi, ' ')
+    .replace(/\b(?:tablet|tablets|capsule|capsules|suspension|syrup|cream|ointment|gel|drops|lotion|shampoo|sachet|dry syrup|solution|chewable|sr|er|dt)\b/gi, ' ')
+    .replace(/[+/,()-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return stripped.length > 0 ? stripped : name;
+};
+
+const uniqueValues = (values: string[]) => [...new Set(values.filter(Boolean))];
 
 const Products = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -48,6 +72,30 @@ const Products = () => {
     [medications]
   );
 
+  const medicationFamilies = useMemo<MedicationFamily[]>(() => {
+    const familyMap = new Map<string, MedicationEntry[]>();
+
+    medications.forEach((medication) => {
+      const key = normalizeMedicationName(medication.name).toLowerCase();
+      const existing = familyMap.get(key) ?? [];
+      existing.push(medication);
+      familyMap.set(key, existing);
+    });
+
+    return Array.from(familyMap.entries())
+      .map(([key, variants]) => ({
+        id: key,
+        name: normalizeMedicationName(variants[0].name),
+        categories: uniqueValues(variants.map((item) => item.category)),
+        ranges: uniqueValues(variants.map((item) => item.range)),
+        forms: uniqueValues(variants.map((item) => item.form)),
+        compositions: uniqueValues(variants.map((item) => item.composition)),
+        packings: uniqueValues(variants.map((item) => item.packing)),
+        variants,
+      }))
+      .sort((a, b) => b.variants.length - a.variants.length || a.name.localeCompare(b.name));
+  }, [medications]);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -70,22 +118,28 @@ const Products = () => {
     setVisibleCount(9);
   }, [activeCategory, searchTerm]);
 
-  const filteredProducts = useMemo(() => {
+  const filteredFamilies = useMemo(() => {
     const query = searchTerm.trim().toLowerCase();
 
-    return medications.filter((item) => {
-      const matchesCategory = activeCategory === 'All' || item.category === activeCategory;
+    return medicationFamilies.filter((family) => {
+      const matchesCategory =
+        activeCategory === 'All' || family.categories.some((category) => category === activeCategory);
       const matchesSearch =
         query.length === 0 ||
-        item.name.toLowerCase().includes(query) ||
-        item.composition.toLowerCase().includes(query) ||
-        item.form.toLowerCase().includes(query);
+        family.name.toLowerCase().includes(query) ||
+        family.variants.some(
+          (item) =>
+            item.name.toLowerCase().includes(query) ||
+            item.composition.toLowerCase().includes(query) ||
+            item.form.toLowerCase().includes(query) ||
+            item.packing.toLowerCase().includes(query)
+        );
 
       return matchesCategory && matchesSearch;
     });
-  }, [activeCategory, medications, searchTerm]);
+  }, [activeCategory, medicationFamilies, searchTerm]);
 
-  const displayedProducts = filteredProducts.slice(0, visibleCount);
+  const displayedFamilies = filteredFamilies.slice(0, visibleCount);
 
   return (
     <section id="products" ref={sectionRef} className="py-24 md:py-32 bg-white">
@@ -112,7 +166,8 @@ const Products = () => {
             }`}
             style={{ transitionDelay: '400ms' }}
           >
-            Browse {medications.length}+ medicine SKUs across {categories.length - 1} therapeutic categories.
+            Browse {medications.length}+ SKUs grouped into {medicationFamilies.length} medicine families across{' '}
+            {categories.length - 1} therapeutic categories.
           </p>
         </div>
 
@@ -127,7 +182,7 @@ const Products = () => {
               type="search"
               value={searchTerm}
               onChange={(event) => setSearchTerm(event.target.value)}
-              placeholder="Search medicine name, composition, or form..."
+              placeholder="Search medicine family, composition, dosage or pack..."
               className="w-full px-4 py-3 border border-[#ececec] rounded-none text-sm focus:outline-none focus:border-[#7b4397]"
             />
           </div>
@@ -155,9 +210,9 @@ const Products = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {displayedProducts.map((product, index) => (
+          {displayedFamilies.map((family, index) => (
             <article
-              key={product.id}
+              key={family.id}
               className={`bg-[#fafafa] border border-[#f0f0f0] p-6 transition-all duration-700 hover:border-[#d7c4e3] hover:shadow-sm ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
@@ -165,30 +220,46 @@ const Products = () => {
             >
               <div className="flex items-start justify-between gap-4 mb-4">
                 <div>
-                  <p className="text-[11px] tracking-[0.15em] uppercase text-[#7b4397] mb-1">{product.category}</p>
-                  <h3 className="font-serif text-xl leading-tight text-black">{product.name}</h3>
+                  <p className="text-[11px] tracking-[0.15em] uppercase text-[#7b4397] mb-1">
+                    {family.categories.slice(0, 2).join(' • ')}
+                    {family.categories.length > 2 ? ' +' : ''}
+                  </p>
+                  <h3 className="font-serif text-xl leading-tight text-black">{family.name}</h3>
                 </div>
                 <span className="inline-flex items-center gap-1 text-xs px-2.5 py-1 bg-white border border-[#ececec] text-[#555]">
                   <Pill size={13} />
-                  {product.form}
+                  {family.variants.length} variants
                 </span>
               </div>
 
-              <p className="text-sm text-[#666] min-h-[56px]">{product.composition}</p>
+              <p className="text-sm text-[#666] min-h-[56px]">{family.compositions[0]}</p>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                {family.variants.slice(0, 4).map((variant) => (
+                  <span key={variant.id} className="text-[11px] px-2.5 py-1 bg-white border border-[#ececec] text-[#666]">
+                    {variant.name} • {variant.packing}
+                  </span>
+                ))}
+                {family.variants.length > 4 && (
+                  <span className="text-[11px] px-2.5 py-1 bg-[#f4ebfa] text-[#7b4397] border border-[#e8d8f1]">
+                    +{family.variants.length - 4} more variants
+                  </span>
+                )}
+              </div>
 
               <div className="mt-4 pt-4 border-t border-[#ececec] flex items-center justify-between gap-3">
-                <p className="text-xs text-[#666]">Pack: {product.packing}</p>
-                <p className="text-xs text-[#9a9a9a]">{product.range}</p>
+                <p className="text-xs text-[#666]">Forms: {family.forms.join(', ')}</p>
+                <p className="text-xs text-[#9a9a9a]">{family.ranges.join(' • ')}</p>
               </div>
             </article>
           ))}
         </div>
 
-        {filteredProducts.length === 0 && (
+        {filteredFamilies.length === 0 && (
           <div className="text-center mt-10 text-[#696969]">No medicines found for this filter.</div>
         )}
 
-        {visibleCount < filteredProducts.length && (
+        {visibleCount < filteredFamilies.length && (
           <div className="text-center mt-12">
             <button
               onClick={() => setVisibleCount((current) => current + 9)}
