@@ -1,5 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
-import { ArrowRight } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { ArrowRight, Pill } from 'lucide-react';
+import medicationsCatalog from '../medications_data.json';
 import { productsConfig } from '../config';
 import { categorySummaries, medications } from '../data/medications';
 
