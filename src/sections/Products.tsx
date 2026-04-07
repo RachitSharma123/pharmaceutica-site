@@ -1,13 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { productsConfig } from '../config';
+import { categorySummaries, medications } from '../data/medications';
 
 const Products = () => {
-  if (!productsConfig.heading && productsConfig.products.length === 0) return null;
-
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
-  const [activeCategory, setActiveCategory] = useState(productsConfig.categories[0] || 'All');
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -27,18 +25,15 @@ const Products = () => {
     return () => observer.disconnect();
   }, []);
 
-  const filteredProducts = activeCategory === productsConfig.categories[0]
-    ? productsConfig.products
-    : productsConfig.products.filter(p => p.category === activeCategory);
+  const openCategoryCatalog = (category: string) => {
+    const url = new URL(`${window.location.origin}${import.meta.env.BASE_URL}medications`);
+    url.searchParams.set('category', category);
+    window.location.href = url.toString();
+  };
 
   return (
-    <section
-      id="products"
-      ref={sectionRef}
-      className="py-24 md:py-32 bg-white"
-    >
+    <section id="products" ref={sectionRef} className="py-24 md:py-32 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-[60px]">
-        {/* Header */}
         <div className="text-center mb-12">
           <span
             className={`inline-block mb-4 text-sm tracking-[0.2em] text-[#7b4397] font-medium uppercase transition-all duration-700 ${
@@ -61,84 +56,43 @@ const Products = () => {
             }`}
             style={{ transitionDelay: '400ms' }}
           >
-            {productsConfig.description}
+            Browse {categorySummaries.length} therapeutic categories and {medications.length}+ medicines. Click any
+            category to open the full medication page.
           </p>
         </div>
 
-        {/* Category Filter */}
-        {productsConfig.categories.length > 0 && (
-          <div
-            className={`flex flex-wrap justify-center gap-4 mb-12 transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
-            style={{ transitionDelay: '600ms' }}
-          >
-            {productsConfig.categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setActiveCategory(category)}
-                className={`px-6 py-2 text-sm tracking-wide transition-all duration-300 ${
-                  activeCategory === category
-                    ? 'bg-[#7b4397] text-white'
-                    : 'bg-[#fafafa] text-[#696969] hover:bg-[#f0f0f0]'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        )}
-
-        {/* Products Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredProducts.map((product, index) => (
-            <div
-              key={product.id}
-              className={`group bg-[#fafafa] border border-[#f5f5f5] transition-all duration-700 ${
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {categorySummaries.map((entry, index) => (
+            <article
+              key={entry.category}
+              className={`bg-[#fafafa] border border-[#f0f0f0] p-6 transition-all duration-700 hover:border-[#d7c4e3] hover:shadow-sm ${
                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
               }`}
-              style={{ transitionDelay: `${800 + index * 100}ms` }}
+              style={{ transitionDelay: `${700 + index * 40}ms` }}
             >
-              {/* Image Container */}
-              <div className="relative h-[400px] overflow-hidden bg-[#fafafa]">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
-                />
+              <p className="text-[11px] tracking-[0.15em] uppercase text-[#7b4397] mb-1">Category</p>
+              <h3 className="font-serif text-2xl leading-tight text-black">{entry.category}</h3>
+              <p className="text-sm text-[#666] mt-2 mb-4">{entry.count} medicines available</p>
 
-                {/* View Details Button */}
-                <button
-                  className="absolute bottom-4 left-1/2 -translate-x-1/2 px-6 py-3 flex items-center gap-2 text-sm tracking-wide transition-all duration-300 bg-[#7b4397] text-white opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0"
-                >
-                  <span>Explore Range</span>
-                  <ArrowRight size={16} />
-                </button>
+              <div className="space-y-2 mb-6">
+                {entry.previewMeds.map((medicine) => (
+                  <p key={medicine.id} className="text-sm text-[#565656] border-b border-[#ececec] pb-1">
+                    {medicine.name}
+                  </p>
+                ))}
               </div>
 
-              {/* Product Info */}
-              <div className="p-5 bg-white">
-                <span className="text-xs text-[#7b4397] tracking-wide uppercase">{product.category}</span>
-                <h3 className="font-serif text-xl text-black mt-1">{product.name}</h3>
-                <p className="text-[#696969] text-sm mt-2">Comprehensive therapeutic solutions</p>
-              </div>
-            </div>
+              <button
+                type="button"
+                onClick={() => openCategoryCatalog(entry.category)}
+                className="px-5 py-2.5 border border-[#7b4397] text-[#7b4397] inline-flex items-center gap-2 hover:bg-[#7b4397] hover:text-white transition-all duration-300"
+              >
+                View {entry.category}
+                <ArrowRight size={16} />
+              </button>
+            </article>
           ))}
         </div>
-
-        {/* View All Link */}
-        {productsConfig.viewAllText && (
-          <div
-            className={`text-center mt-12 transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
-            style={{ transitionDelay: '1200ms' }}
-          >
-            <button className="px-12 py-4 border-2 border-[#7b4397] text-[#7b4397] font-light tracking-widest text-sm hover:bg-[#7b4397] hover:text-white transition-all duration-300">
-              {productsConfig.viewAllText}
-            </button>
-          </div>
-        )}
       </div>
     </section>
   );
