@@ -11,8 +11,20 @@ import About from './sections/About';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import Chatbot from './sections/Chatbot';
+import MedicationCatalogPage from './sections/MedicationCatalogPage';
 
 function App() {
+  const isMedicationPage = window.location.pathname.endsWith('/medications');
+
+  if (isMedicationPage) {
+    return (
+      <div className="min-h-screen bg-white" lang={siteConfig.language || undefined}>
+        <MedicationCatalogPage />
+        <Chatbot />
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-white" lang={siteConfig.language || undefined}>
       <Navigation />
