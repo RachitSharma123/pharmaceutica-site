@@ -10,6 +10,7 @@ import Blog from './sections/Blog';
 import About from './sections/About';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import Chatbot from './sections/Chatbot';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Chatbot />
     </div>
   );
 }
